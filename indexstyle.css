@@ -7,7 +7,7 @@ body {
 }
 
 body {
-  background: #000000 url("barbershop-index.jpg") no-repeat 50% 3px;
+  background: 000000 url("barbershop-index.jpg") no-repeat 50% 3px;
   background-size: 1122px auto;
 }
 
@@ -16,8 +16,24 @@ body {
   min-height: 70px;
 }
 
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
 
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
 
+.main-navigation {
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
+
+.user-block {
+  /* Только для оформления сетки */
+  min-height: 70px;
+}
 
 
 
@@ -93,4 +109,27 @@ body > *::before {
 
 .main-header::before {
   content: ".main-header";
+}
+
+.main-navigation {
+  background:  rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px yellow;
+}
+
+.main-navigation::before {
+  content: ".main-navigation";
+}
+
+.user-block {
+  background:  rgba(60, 100, 50, 0.2);
+  box-shadow: 0 0 0 3px yellow;
+}
+
+.user-block::before {
+  content: ".user-block";
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 3px red;
 }
