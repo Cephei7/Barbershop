@@ -24,6 +24,10 @@ body {
   padding: 0 10px;
 }
 
+.main-header {
+  margin-bottom: 60px;
+}
+
 .main-navigation {
   float: left;
   width: 780px;
@@ -38,6 +42,74 @@ body {
   min-height: 70px;
 }
 
+.index-logo {
+  width: 368px;
+  height: 204px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+.featurest {
+  margin-bottom: 80px;
+}
+
+.featurest-item {
+  float:left;
+  width: 300px;
+  margin-right: 20px;
+
+  /* Только для оформления сетки */
+  min-height: 175px;
+}
+
+.featurest-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  padding: 50px 80px;
+  margin-bottom: 35px;
+}
+
+.index-content-left {
+  float:left;
+  width: 380px;
+  /*только для оформления сетки*/
+  min-height: 330px;
+}
+
+.index-content-right {
+  float: right;
+  width: 300px;
+  /*Только для оформления сееки*/
+  min-height: 330px;
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  min-height: 90px;
+  margin-right: 60px;
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 90px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 90px;
+}
 
 
 
@@ -134,5 +206,83 @@ body > *::before {
 
 .container {
   background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 3px green;
+}
+
+.container::before {
+  content: ".container";
+}
+
+.index-logo {
+  background:  rgba(60, 100, 50, 0.2);
+  box-shadow: 0 0 0 3px yellow;
+}
+
+.index-logo::before {
+  content: ".index-logo";
+}
+
+.featurest{
+  background: rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 0 3px red;
+}
+
+.featurest::before {
+  content: ".featurest";
+}
+
+.featurest-item {
+  background:  rgba(60, 100, 50, 0.2);
+  box-shadow: 0 0 0 3px yellow;
+}
+
+.featurest-item::before {
+  content: ".featurest-item";
+}
+
+.index-content {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 3px red;
+}
+
+.index-content::before {
+  content: ".index-content";
+}
+
+.index-content-left {
+  background:  rgba(60, 100, 50, 0.2);
+  box-shadow: 0 0 0 3px yellow;
+}
+
+.index-content-left::before {
+  content: ".index-content-left";
+}
+
+.index-content-right {
+  background:  rgba(60, 100, 50, 0.2);
+  box-shadow: 0 0 0 3px yellow;
+}
+
+.index-content-right::before {
+  content: ".index-content-right";
+}
+
+.main-footer {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 3px green;
+}
+
+.footer-contacts {
+  background:  rgba(60, 100, 50, 0.2);
+  box-shadow: 0 0 0 3px yellow;
+}
+
+.footer-social {
+  background:  rgba(60, 100, 50, 0.2);
+  box-shadow: 0 0 0 3px yellow;
+}
+
+.footer-copyright {
+  background:  rgba(60, 100, 50, 0.2);
+  box-shadow: 0 0 0 3px yellow;
 }
