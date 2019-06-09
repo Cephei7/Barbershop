@@ -11,26 +11,29 @@ body {
   background-size: 1122px auto;
 }
 
-.main-header {
-  /* Только для оформления сетки */
-  min-height: 70px;
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
 }
 
 .container {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
-
-  /* Только для оформления сетки */
-  min-height: 70px;
 }
 
 .main-navigation {
+  float: left;
+  width: 780px;
   /* Только для оформления сетки */
   min-height: 70px;
 }
 
 .user-block {
+  float: right;
+  width: 140px;
   /* Только для оформления сетки */
   min-height: 70px;
 }
